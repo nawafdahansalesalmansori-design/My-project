@@ -1,0 +1,600 @@
+/*login page*/
+form {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 40px auto;
+
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.b {
+    display: block;
+    margin: 0 auto;
+}
+
+
+button:hover {
+    background: #015c36;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 1em;
+    margin-top: 40px;
+}
+
+/*home*/
+
+body {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom, #294183 30px, #8daafd);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+nav h1 {
+    margin-bottom: 50px;
+}
+
+ul .u {
+    list-style: none;
+
+}
+
+header {
+    font-size: 20px;
+
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    color: #fff;
+    height: 100px;
+}
+
+header nav {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    text-transform: capitalize;
+    display: flex;
+    margin-right: 400px;
+    padding: 20px;
+}
+
+.u li {
+    margin-bottom: 50px;
+    width: 160px;
+    list-style: none;
+    padding: 20px;
+}
+
+nav a {
+    margin-bottom: 50px;
+}
+
+ul a {
+    text-decoration: none;
+    padding-left: 40px;
+
+    color: rgb(253, 252, 252);
+}
+
+ul a:hover {
+    color: #8daafd;
+}
+
+.pag1 img {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    left: 700px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.pag2 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.pag2 h3 {
+    margin-bottom: 15px !important;
+}
+
+.menu {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.menu .super,
+.clothes,
+.makeup,
+.electronic {
+    text-align: center;
+    margin: 30px;
+    width: 24%;
+}
+
+.menu img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    z-index: 111;
+    background: rgb(3, 3, 3);
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    color: antiquewhite;
+
+
+}
+
+footer a,
+.cen {
+    margin: 15px;
+    margin-left: 20px;
+
+}
+
+.ja {
+    position: absolute;
+    color: white;
+    bottom: 0;
+
+    padding: 9px;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+.r {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.log {
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loin {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+}
+
+center p {
+    width: 50%;
+    position: relative;
+    right: 20%;
+}
+
+.pag3 {
+    display: flex;
+
+}
+
+.cont3 {
+    margin: 100px;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sec1 img {
+    padding: 0;
+    border-radius: 20% 0;
+
+}
+
+.pag3 .sec1 {
+    color: #000;
+    margin: 40px;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 20% 0;
+    background-image: linear-gradient(to bottom, #294183 30px, #8daafd);
+
+}
+
+.pag3 .sec1:hover {
+    animation-name: sec;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.sec11-text {
+    color: black;
+    margin: 100px;
+
+}
+
+.pag3 .sec1:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 20% 0;
+
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #8daafd;
+}
+
+.buy {
+    position: relative;
+    left: 70px;
+    width: 80px;
+    background: #000;
+    border-radius: 15%;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+
+}
+
+.buy:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.icon-buy a :hover {
+    color: #8daafd;
+}
+
+.icon-buye {
+    background-color: rgba(238, 228, 228, 0.438);
+}
+
+.slider {
+    width: 640px;
+    height: 400px;
+
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider ul li img {
+    width: 600px;
+    height: 400px;
+}
+
+.slider ul {
+    padding: 0;
+    list-style: none;
+    width: 2500px;
+    position: relative;
+    animation: sliding 12s ease-in-out infinite;
+
+}
+
+.slider ul li {
+    float: left;
+    position: relative;
+}
+
+
+form {
+    text-align: center;
+    width: 400px;
+    padding-bottom: 50px;
+    margin: 30px 32% 50px 32%;
+}
+
+.alen {
+    width: 50%;
+}
+
+.en3 {
+    width: 50%;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.alen input {
+    color: black;
+    margin-bottom: 8px;
+
+    padding: 10px;
+    border-color: rgb(27, 17, 173);
+    border-radius: 10px;
+}
+
+.message {
+    width: 50%;
+}
+
+.message input {
+    padding: 20px;
+    padding-right: 0%;
+}
+
+#loog {
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: #8daafd;
+    border-radius: 30%;
+    padding: 10px;
+    margin: 0 40% 70px 40%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .slider {
+        width: 240px;
+        height: 100px;
+
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .slider ul li img {
+        width: 200px;
+        height: 100px;
+    }
+
+    
+
+    header {
+        height: 60px;
+    }
+
+    .head nav {
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 5px;
+
+    }
+
+    .u li {
+        width: 100px;
+        font-size: 10px;
+    }
+
+
+}
+
+/*market*/
+
+
+header .back {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    background-image: linear-gradient(to right bottom, #0c0f14dc, #00c78bcc);
+    color: aliceblue;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 0 0 20% 20%;
+
+}
+
+.im {
+    margin-top: 50px;
+}
+
+
+.sho {
+    position: absolute;
+    top: 5px;
+
+}
+
+
+.markp {
+    display: flex;
+}
+
+.all {
+    margin: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.markp .sec1 {
+    color: aliceblue;
+    margin: 40px;
+    margin-top: 0;
+    text-align: center;
+    background-color: #00000086;
+    border-radius: 40%;
+
+
+}
+
+.sec11-text {
+    color: black;
+    margin: 100px;
+
+}
+
+.markp .sec1:hover {
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40%;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/*clothes*/
+
+
+
+
+.clothe {
+    display: flex;
+}
+
+
+
+
+.clothe .sec1 {
+    color: aliceblue;
+    margin: 40px;
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #2e5999dc, #6900c7cc);
+    border-radius: 0 0 20% 20%;
+
+
+}
+
+.clothe .sec1:hover {
+    color: #aebadd;
+}
+
+
+
+
+/*electronic*/
+
+.elec {
+    display: flex;
+}
+
+
+
+
+.elec .sec1 {
+    color: aliceblue;
+    margin: 40px;
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #0c0f14dc, #00c78bcc);
+    border-radius: 0 0 20% 20%;
+
+
+}
+
+
+.elec .sec1:hover {
+    color: #fcfcfc;
+}
+
+
+
+
+
+/*make up*/
+
+
+
+
+
+
+.makeu {
+    display: flex;
+}
+
+
+
+.makeu .sec1 {
+    color: aliceblue;
+    margin: 40px;
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #0c0f14dc, #ca5fcecc);
+    border-radius: 0 0 20% 20%;
+
+
+}
+
+
+
+.makeu .sec1:hover {
+    color: #fcfcfc;
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+
+
